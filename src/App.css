@@ -27,36 +27,3 @@ body {
     padding: 15px 0;
     margin: 0 auto;
 }
-
-.header,
-.nav,
-.content {
-    position: relative;
-    width: 100%;
-}
-
-.header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 100px;
-    grid-area: h;
-    background-color: var(--color-blue);
-}
-.header img {
-    position: relative;
-    width: 120px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: var(--color-grey);
-}
-.nav ul {
-    list-style: none;
-}
-
-.content {
-    grid-area: c;
-    background-color: var(--color-grey);
-}
