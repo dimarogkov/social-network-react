@@ -3,6 +3,9 @@
     --color-black: #231f20;
     --color-blue: #00aaff;
     --color-grey: #E5E5E5;
+    
+    --header-height: 6.25rem;
+    --nav-width: 5.5rem;
 }
 
 html,
@@ -14,16 +17,15 @@ body {
     box-sizing: border-box;
     color: var(--color-black);
 }
-
 .main {
     position: relative;
-    display: grid;
-    grid-template-areas: 
-    'h h h'
-    'n c c';
-    grid-gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container {
+    position: relative;
     width: 100%;
     max-width: 80%;
-    padding: 15px 0;
     margin: 0 auto;
 }

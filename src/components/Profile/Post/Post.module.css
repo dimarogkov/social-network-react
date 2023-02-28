@@ -1,0 +1,11 @@
+.post {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-grey);
+    margin-bottom: 1rem;
+}
+.post:last-child {
+    margin-bottom: 0;
+}

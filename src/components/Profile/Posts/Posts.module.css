@@ -1,0 +1,8 @@
+.posts {
+    position: relative;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.posts:last-child {
+    margin-bottom: 0;
+}

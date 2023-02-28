@@ -1,0 +1,15 @@
+.header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: calc(100% - var(--nav-width));
+    height: var(--header-height);
+    background-color: var(--color-blue);
+}
+.header img {
+    position: relative;
+    width: 6rem;
+}
